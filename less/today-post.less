@@ -1,0 +1,51 @@
+    .today-post {
+        width: 100%;
+        position: relative;
+    }
+    
+    .today-post__info {
+        position: absolute;
+        top: 50%;
+        left: 20%;
+        background: white;
+        padding: 20px 40px;
+    }
+    
+    .today-post__header {
+        text-transform: uppercase;
+        font-size: 28px;
+    }
+    
+    .today-post__text {
+        width: 700px;
+        color: darkgrey;
+    }
+    
+    .today-post__link {
+        color: black;
+    }
+    
+    @media @mobile-widths-only {
+        .today-post__info {
+            width: 320px;
+        }
+        .today-post__text {
+            width: 320px;
+        }
+    }
+    
+    @media @tablet-widths {
+        .today-post__info {
+            width:600px;
+        }
+        .today-post__text {
+            width: 580px;
+        }
+    }
+    
+    @media @desktop-widths {
+        .today-post__info {
+            width: 700px;
+            padding: 50px;
+        }
+    }
